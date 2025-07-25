@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a test of my knowhow" />
+    <title>GEWA's Rezepte</title>
+    <link rel="icon" href="resources/images/Logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="resources/css/layout.css" />
+    <link rel="stylesheet" href="resources/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="headerbox">
+        <div class="navbox">
+          <nav class="navigation">
+            <a class="navindex" href="index.html">Home</a>
+            <a class="navrecipes" href="recipes.html">Recipes</a>
+            <!-- to doo: Profile only seen after login -->
+            <a class="navlogin" href="login.html">Login</a>
+            <a class="navprofile" href="myprofile.html">Profile</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>My Profile</h1>
+      edit
+      <fieldset>
+        <section>
+          <img
+            src="https://placehold.co/600x400"
+            alt="Placeholder"
+            width="300"
+            height="200"
+          />
+        </section>
+        <section>
+          <p>
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Benutzername"
+            />
+          </p>
+          <p>
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="**********"
+            />
+          </p>
+          <p>
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="079-797-79-79"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            />
+          </p>
+          <p>
+            <label for="food"> Favorite Food</label>
+            <select name="food" id="food">
+              <optgroup label="Pasta">
+                <option value="lasagne">Lasagne</option>
+                <option value="carbonara">Carbonara</option>
+              </optgroup>
+              <optgroup label="Salat">
+                <option value="ceasar salad">Ceasar Salat</option>
+                <option value="russian salad">Russischer Salat</option>
+              </optgroup>
+              <optgroup label="Fleisch">
+                <option value="braten">Braten</option>
+                <option value="filet">Filet</option>
+              </optgroup>
+            </select>
+          </p>
+        </section>
+        <section>
+          <p>
+            About
+            <br />
+            Viel Text über die Person
+          </p>
+        </section>
+      </fieldset>
+    </main>
+    <footer>
+      <hr />
+      <a href="about.html">Steve</a>
+    </footer>
+  </body>
+</html>

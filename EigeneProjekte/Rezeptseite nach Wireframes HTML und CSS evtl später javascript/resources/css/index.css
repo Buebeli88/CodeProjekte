@@ -1,0 +1,55 @@
+.bodyimg {
+    display: block;
+    margin: auto;
+    padding-top: 7.5rem;
+    padding-bottom: 1rem;
+}
+
+.headerbox {
+    display: inline-block;
+    width: 100%;
+}
+
+.navbox {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+.navrecipes {
+    text-decoration: none;
+}
+
+.navprofile {
+    text-decoration: none;
+}
+
+.navlogin {
+    text-decoration: none;
+}
+
+.bodyindex {
+    width: 100%;
+}
+
+.homerezepte {
+    width: 100%;
+}
+
+.lasagne, .braten {
+    display: inline-flex;
+    border: 1px solid black;
+    width: 49%;
+}
+
+.indexlasagne {
+    margin: 1rem;
+}
+
+.indexbraten {
+    margin: 1rem;
+}
+
+.indexpar {
+    margin: 1rem;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a test of my knowhow" />
+    <title>Login</title>
+    <link rel="icon" href="resources/images/Logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="resources/css/layout.css" />
+    <link rel="stylesheet" href="resources/css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="headerbox">
+          <div class="navbox">
+            <nav class="navigation">
+              <a class="navindex" href="index.html">Home</a>
+              <a class="navrecipes" href="recipes.html">Recipes</a>
+              <!-- to doo: Profile only seen after login -->
+              <a class="navlogin" href="login.html">Login</a>
+              <a class="navprofile" href="profile.html">Profile</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="login">
+          <h1 class="h11">Login</h1>
+          <a class="h12" href="register.html"><h1 class="h12">Register</h1></a>
+        </div>
+        <br />
+        <article>
+          <form action="https://httpbin.org/get" method="get">
+            <p>
+              <label for="username">Username:</label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" required />
+            </p>
+            <button class="submit" type="submit">Login</button>
+          </form>
+        </article>
+      </main>
+    </div>
+    <footer>
+      <a class="footer" href="about.html">&copy; Steve</a>
+    </footer>
+  </body>
+</html>

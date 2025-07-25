@@ -1,0 +1,27 @@
+.navindex {
+    text-decoration: none;
+}
+
+.navrecipes {
+    text-decoration: none;
+}
+
+.navprofile {
+    text-decoration: none;
+}
+
+.navlogin {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 8.5rem;
+}
+
+p {
+    width: 600px;
+}
+
+.container {
+    min-height: calc(100vh - 220px);
+}

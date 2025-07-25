@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a test of my knowhow" />
+    <title>GEWA's Rezepte</title>
+    <link rel="icon" href="resources/images/Logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="resources/css/layout.css" />
+    <link rel="stylesheet" href="resources/css/recipes.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="headerbox">
+          <div class="navbox">
+            <nav class="navigation">
+              <a class="navindex" href="index.html">Home</a>
+              <a class="navrecipes" href="recipes.html">Recipes</a>
+              <!-- to doo: Profile only seen after login -->
+              <a class="navlogin" href="login.html">Login</a>
+              <a class="navprofile" href="myprofile.html">Profile</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="searchfilter">
+          <div class="searcher">
+            <form action="search" method="get">
+              <input
+                class="searcher"
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Suchen..."
+              />
+              <button class="buttons" type="submit">Suchen</button>
+            </form>
+          </div>
+          <div class="filterer">
+            <input type="text" id="filterTable()" placeholder="Filter..." />
+          </div>
+        </div>
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Menü links</th>
+                <th>Menü rechts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="resources/images/Lasagne.jpg"
+                    width="200"
+                    height="200"
+                    alt="Ein Bild einer Lasagne"
+                  />
+                  <p>Interessanter Text über Lasagne</p>
+                </td>
+                <td>
+                  <img
+                    src="resources/images/Braten.jpg"
+                    width="200"
+                    height="200"
+                    alt="Ein Bild eines Bratens"
+                  />
+                  <p>Interessanter Text über Braten</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="resources/images/bolognese.jpg"
+                    width="200"
+                    height="200"
+                    alt="Spaghetti Bolognese"
+                  />
+                  <p>Interessanter Text über Bolognese</p>
+                </td>
+                <td>
+                  <img
+                    src="resources/images/rippchen.jpg"
+                    width="200"
+                    height="200"
+                    alt="Leckere BBQ Rippchen"
+                  />
+                  <p>Interessanter Text über BBQ Rippchen</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="resources/images/carbonara.jpg"
+                    width="200"
+                    height="200"
+                    alt="Originale Carbonara"
+                  />
+                  <p>Interessanter Text über Carbonara</p>
+                </td>
+                <td>
+                  <img
+                    src="resources/images/steak.jpg"
+                    width="200"
+                    height="200"
+                    alt="Ein saftiges Steak"
+                  />
+                  <p>Interessanter Text über Steak</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="resources/images/älplermagronen.jpg"
+                    width="200"
+                    height="200"
+                    alt="Älplermagronen"
+                  />
+                  <p>Interessanter Text über Älplermagronen</p>
+                </td>
+                <td>
+                  <img
+                    src="resources/images/schnitzel.jpg"
+                    width="200"
+                    height="200"
+                    alt="Ein hübsches Schnitzel"
+                  />
+                  <p>Interessanter Text über Schnitzel</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        searchfunktion einbauen mit searchknopt und einem filter über CSS für
+        später
+        <section>
+          Diverse rezepte/muster einfügen mit einer scroll funktion jeweil 2
+          nebeneinander mit CSS overflow
+        </section>
+      </main>
+    </div>
+    <footer>
+      <a class="footer" href="about.html">&copy; Steve</a>
+    </footer>
+  </body>
+</html>

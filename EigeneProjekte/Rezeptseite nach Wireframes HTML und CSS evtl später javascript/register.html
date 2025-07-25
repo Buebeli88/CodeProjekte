@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Steve">
+        <meta name="description" content="Register on here">
+        <title>Register</title>
+        <link rel="icon" href="Bilder/Logo2.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <nav aria-label="primary-navigation">
+                    <img src="Bilder/GewaLogo.jpg" alt="Gewa Logo" width="347" height="145" class="inline-links">
+                    <a href="index.html" class="inline-links"><h1>Home</h1></a>
+                    <a href="recipes.html" class="inline-links"><h1>Recipes</h1></a>
+                    <a href="login.html" class="inline-links"><h1>Login</h1></a>
+            </nav>
+            <br>
+            <hr>
+        </header>
+        <main>
+            <a href="login.html"><h1>Login</h1></a>
+            <h1>Register</h1>
+            <br>
+            <article>
+                <form action="https://httpbin.org/get" method="get">
+                    <p>
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" required autofocus>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required>
+                    </p>
+                    <p>
+                        <label for="repeatpassword">Repeat Password:</label>
+                        <input type="password" name="repeatpassword" id="repeatpassword" required>
+                    </p>
+                    <button type="submit">Register</button>
+                </form>
+            </article>
+            
+        </main>
+        <footer>
+            <hr>
+            <a href="about.html">Steve</a>
+        </footer>
+    </body>
+    
+</html>
